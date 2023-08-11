@@ -184,7 +184,7 @@ header {
 
 .start-now {
     display: relative;
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 .cta {
@@ -231,19 +231,19 @@ header {
     opacity: 1;
 }
 
-.main-footer {
+footer {
     position: relative;
     width: 100%;
     height: auto;
     padding: 50px 100px;
     background: #42545C; 
     border-top: 1px solid rgba(0, 0, 0, 0.05);
-  }
+}
 
 #contact {
     background-color: #42545C;
     text-align: center;
-    padding: 1% 1% 1% 1%;
+    padding: 2% 1% 1% 1%;
     margin-top: 150px;
 }
 
