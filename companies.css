@@ -135,11 +135,21 @@ body {
 }
 
 .search-input .auto-box {
-    /* padding: 10px 8px; */
+    padding: 0px;
     max-height: 200px;
     overflow-y: auto;
     opacity: 0;
     pointer-events: none;
+}
+
+.search-input.active .auto-box {
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.search-input.active .auto-box li {
+    display: block;
 }
 
 .auto-box li {
@@ -154,6 +164,8 @@ body {
 .auto-box li:hover {
     background-color: #efefef;
 }
+
+
 /*-----------------------------------BANNER SECTION---------------------------------------*/
 
 .banner {
