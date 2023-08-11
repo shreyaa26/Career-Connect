@@ -1,42 +1,97 @@
-.brand p {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #42545C;
+    scroll-behavior: smooth;
+  }
+
+body {
+    min-height: 150vh;
+    background: #f8f8f8;
+  }
+
+/*-------------------------------------------HEADER SECTION--------------------------------------*/
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 0 15px 15px rgba(0, 0, 0, 0.05); */
+    z-index: 1000;
+    /* transition: 0.5s; */
+  }
+
+  /* header.sticky {
+    padding: 10px 40px;
+  } */
+
+.nav-links {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
     font-family: 'Montserrat', sans-serif;
     color: #42545C;
     display: inline;
     font-size: 1.2rem;
+    letter-spacing: 1px;
     margin-right: 50px;
-}
-
-.brand a {
     text-decoration: none;
 }
 
+.logo a {
+    text-decoration: none;
+}
 
-.brand img {
+.logo img {
     height: 3.4rem;
     margin-right: 10px;
     padding-bottom: 5px;
     margin-left: 50px;
 }
 
-.brand h1 {
+.logo h1 {
     font-weight: 700;
     font-size: 2rem;
     line-height: 2rem;
     font-family: 'Montserrat', sans-serif;
     display: inline;
     color: black;
-    margin-right: 600px;
+    /* margin-right: 700px; */
 }
 
-.brand {
-    margin: 40px;
+/* @media (max-width: 991px) {
+    header {
+        padding: 20px 20px;
+      }
+    
+} */
 
-}
+/*-----------------------------------BANNER SECTION---------------------------------------*/
 
-
-.introduction {
-    height: 550px;
+.banner {
+    position: relative;
+    /* padding: 100px; */
+    width: 100%;
+    min-height: 70vh;
     background-color: #9881f7;
+    /* height: 500px; */
+    /* padding-top: 60px; */
+    margin-top: 90px;
 }
 
 .intro-image img {
@@ -52,9 +107,11 @@
     line-height: 3rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
+
+/*---------------------------------COMPANIES SECTION------------------------------------------*/
 
 .popularCompany h2 {
     font-weight: 700;
@@ -65,11 +122,12 @@
 }
 
 .popularCompany {
+    position: relative;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    padding: 20px;
     text-align: center;
-    margin: 80px;
 }
-
-
 
 .company img {
     height: 30px;
