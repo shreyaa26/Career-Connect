@@ -1,0 +1,132 @@
+.brand p {
+    font-family: 'Montserrat', sans-serif;
+    color: #42545C;
+    display: inline;
+    font-size: 1.2rem;
+    margin-right: 50px;
+}
+
+.brand a {
+    text-decoration: none;
+}
+
+
+.brand img {
+    height: 3.4rem;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+}
+
+.brand h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    color: black;
+    margin-right: 600px;
+}
+
+.brand {
+    margin: 40px;
+
+}
+
+
+.introduction {
+    height: 550px;
+    background-color: #9881f7;
+}
+
+.intro-image img {
+    height: 450px;
+    width: 580px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.intro-text h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+
+.popularCompany h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.popularCompany {
+    text-align: center;
+    margin: 80px;
+}
+
+
+
+.company img {
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.company h3 {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+
+}
+
+.company button {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    font-size: 1.1rem;
+    width: 10%;
+    border-radius: 2rem;
+}
+
+
+.company {
+    position: relative;
+    height: 70px;
+    width: 60%;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px 5px grey;
+    transition: ease 1s;
+    margin: 0 auto 50px auto;
+    border-radius: 2rem;
+}
+
+.company:hover {
+    border-right: 20px solid;
+    border-color: #9881f7;
+}
+
+#contact {
+    background-color: #9881f7;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    margin-top: 150px;
+}
+
+#contact .copyright {
+    color: #fff;
+    font-size: 15px;
+}
+
+#contact .brand {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}

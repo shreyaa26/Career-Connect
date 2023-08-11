@@ -1,0 +1,171 @@
+.brand p {
+    font-family: 'Montserrat', sans-serif;
+    color: #42545C;
+    display: inline;
+    font-size: 1.2rem;
+    margin-right: 50px;
+}
+
+.brand a {
+    text-decoration: none;
+}
+
+
+.brand img {
+    height: 3.4rem;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+}
+
+.brand h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    color: black;
+    margin-right: 700px;
+}
+
+.brand {
+    margin: 40px;
+
+}
+
+.introduction {
+    background-image: url(images/introduction.jpeg);
+    height: 500px;
+    padding-top: 60px;
+}
+
+.intro-text {
+    margin-left: 80px;
+}
+
+.intro-text h2 {
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.intro-text p {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 1.5rem;
+    color: #42545C;
+    font-family: 'Ubuntu', sans-serif;
+    width: 80%;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-text .btn {
+    margin-top: 20px;
+    width: 300px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.features-image img {
+    height: 350px;
+    border-radius: 1rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.features {
+    margin: 120px;
+}
+
+.features-text h3 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.features-text p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #42545C;
+}
+
+.features-text {
+    padding: 70px;
+    padding-left: 80px;
+}
+
+.cta {
+    border-radius: 1rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 0 auto 0 auto;
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    background-image: url(images/senior.png);
+    padding-top: 330px;
+    margin-bottom: 70px;
+}
+
+.cta h3 {
+    margin: 0 auto 0 auto;
+    width: 70%;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.cta .btn {
+    margin-top: 10px;
+    width: 350px;
+    font-weight: 700;
+    font-size: 1.75rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#contact {
+    background-color: #42545C;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    margin-top: 150px;
+}
+
+#contact .copyright {
+    color: #fff;
+    font-size: 15px;
+}
+
+#contact .brand {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
