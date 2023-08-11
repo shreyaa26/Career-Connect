@@ -14,7 +14,7 @@ body {
 
 /*-------------------------------------------HEADER SECTION--------------------------------------*/
 
-header {
+.nav-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,8 +22,9 @@ header {
     background: #fff;
     padding: 20px 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    
     /* box-shadow: 0 15px 15px rgba(0, 0, 0, 0.05); */
     z-index: 1000;
     /* transition: 0.5s; */
@@ -33,9 +34,17 @@ header {
     padding: 10px 40px;
   } */
 
-.nav-links {
+.right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links ul {
+    margin: 0;
     position: relative;
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
@@ -51,6 +60,16 @@ header {
     letter-spacing: 1px;
     margin-right: 50px;
     text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 .logo a {
@@ -81,6 +100,60 @@ header {
     
 } */
 
+.wrapper {
+    max-width: 450px;
+}
+
+.wrapper .search-input {
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.search-input input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 60px 0 20px;
+    font-size: 1.2rem;
+    background: #fff;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input .icon {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 26px;
+    right: 40px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.search-input .auto-box {
+    /* padding: 10px 8px; */
+    max-height: 200px;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.auto-box li {
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+    /* border-radius: 3px; */
+    display: none;
+}
+
+.auto-box li:hover {
+    background-color: #efefef;
+}
 /*-----------------------------------BANNER SECTION---------------------------------------*/
 
 .banner {
@@ -91,7 +164,7 @@ header {
     background-color: #9881f7;
     /* height: 500px; */
     /* padding-top: 60px; */
-    margin-top: 90px;
+    top: 88px;
 }
 
 .intro-image img {
@@ -112,6 +185,13 @@ header {
 
 
 /*---------------------------------COMPANIES SECTION------------------------------------------*/
+
+.companies {
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
 
 .popularCompany h2 {
     font-weight: 700;
@@ -170,10 +250,16 @@ header {
     border-color: #9881f7;
 }
 
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
 #contact {
     background-color: #9881f7;
     text-align: center;
-    padding: 1% 1% 1% 1%;
+    padding: 2% 1% 1% 1%;
     margin-top: 150px;
 }
 

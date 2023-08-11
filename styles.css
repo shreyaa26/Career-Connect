@@ -24,18 +24,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* box-shadow: 0 15px 15px rgba(0, 0, 0, 0.05); */
     z-index: 1000;
     transition: 0.5s;
   }
 
   header.sticky {
     padding: 10px 40px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.05);
   }
 
 .nav-links {
+    margin: 0;
     position: relative;
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
@@ -51,6 +53,16 @@ header {
     letter-spacing: 1px;
     margin-right: 50px;
     text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 .logo a {

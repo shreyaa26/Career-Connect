@@ -31,21 +31,43 @@
 
   <body>
     <!---------------------------HEADER SECTION---------------------------------->
-    <header class="main-header">
+    <div class="nav-bar">
       <!--LOGO-->
       <div class="logo">
-        <a href="index.html" style="text-decoration: none"
-          ><img src="images/logo.png" alt="logo" class="logo" />
-          <h1>CareerConnect</h1>
-        </a>
+        <li style="list-style: none">
+          <a href="index.html" style="text-decoration: none"
+            ><img src="images/logo.png" alt="logo" class="logo"
+          /></a>
+        </li>
+        <li style="list-style: none">
+          <a href="index.html" style="text-decoration: none"
+            ><h1>CareerConnect</h1></a
+          >
+        </li>
       </div>
 
       <!--NAVIGATION LINKS-->
-      <ul class="nav-links">
-        <li><a href="#popular-companies">Companies</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </header>
+      <div class="right">
+        <div class="nav-links">
+          <ul>
+            <li><a href="#popular-companies">Companies</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="wrapper">
+          <div class="search-input">
+            <input type="text" placeholder="Search companies..." />
+            <div class="auto-box">
+              <li>Adobe</li>
+              <li>Cisco</li>
+              <li>Deloitte</li>
+            </div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!------------------------------------------------------------------------------------------>
 
     <!----------------------------------------BANNER SECTION---------------------------------->
@@ -67,18 +89,18 @@
     </section>
 
     <!-----------------------------------COMPANIES SECTION------------------------------------->
+    <section class="companies">
+      <div class="popularCompany" id="popular-companies">
+        <h2>Popular Companies</h2>
+      </div>
 
-        <div class="popularCompany" id="popular-companies">
-            <h2>Popular Companies</h2>
-        </div>
-
-        <div class="company">
+      <div class="company">
         <img src="companies/adobe.png" />
         <h3>Adobe</h3>
         <a href="adobe.html"
           ><button class="btn btn-outline-dark btn-sm">Explore</button></a
         >
-        </div>
+      </div>
 
       <div class="company">
         <img src="companies/amazon.png" />
@@ -167,8 +189,8 @@
           ><button class="btn btn-outline-dark btn-sm">Explore</button></a
         >
       </div>
+    </section>
 
-    
     <!-- footer -->
 
     <footer id="contact">
@@ -187,7 +209,7 @@
       ></a>
       <p class="copyright">© Copyright CareerConnect</p>
     </footer>
-<!-- 
+    <!-- 
     <script type="text/javascript">
         let header = document.querySelector("header");
   
