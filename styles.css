@@ -19,7 +19,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background: #fff;
+    background: #f8f8f8;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
@@ -249,7 +249,7 @@ footer {
 }
 
 .main-footer .copyright {
-    color: #fff;
+    color: #f8f8f8;
     font-size: 15px;
 }
 
@@ -257,7 +257,7 @@ footer {
     font-size: 25px;
     margin-right: 20px;
     margin-bottom: 30px;
-    color: #fff;
+    color: #f8f8f8;
     transition: transform .2s;
 }
 
