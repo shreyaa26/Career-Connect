@@ -70,11 +70,11 @@ body {
     width: 120px;  
  }
 
- .middle-cisco img {
+ .middle-cisco img, .middle-fb img {
     width: 200px;
  }
 
- .middle-citi img, .middle-amazon img, .middle-cisco img, .middle-deloitte img {
+ .middle-citi img, .middle-amazon img, .middle-cisco img, .middle-deloitte img, .middle-fb img {
     padding: 25px 25px 5px 25px;
  }
 
@@ -89,7 +89,7 @@ body {
     font-size: 1.1rem;
  }
 
- .middle-cisco p, .middle-amazon p, .middle-citi p, .middle-deloitte p {
+ .middle-cisco p, .middle-amazon p, .middle-citi p, .middle-deloitte p, .middle-fb p {
     padding: 0px 20px 10px 23px;
  }
 
@@ -106,6 +106,10 @@ body {
 
 .container .amazon-title h2, .container .deloitte-title h2 {
     padding-top: 130px;
+}
+
+.container .fb-title h2 {
+    padding-top: 120px;
 }
 
 .container .cisco-title h2 {
@@ -183,11 +187,6 @@ body {
     /* border-radius:12px; */
     transition: 0.5s;
     /* filter: drop-shadow(3px 3px 5px #42545C); */
-}
-
-.photo:hover{
-    /* transform: scale(1.03);
-    z-index:0.09; */
 }
 
 footer {
