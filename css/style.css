@@ -63,19 +63,30 @@ body {
  .middle img {
     height: auto;
     width: 160px;
-    padding: 20px 20px 5px 20px;
+    /* padding: 20px 20px 5px 20px; */
+    padding: 25px 25px 5px 25px;
  }
 
  .middle-amazon img {
     width: 120px;  
  }
 
- .middle-cisco img, .middle-fb img {
+ .middle-cisco img, .middle-fb img, .middle-flipkart img {
     width: 200px;
  }
 
- .middle-citi img, .middle-amazon img, .middle-cisco img, .middle-deloitte img, .middle-fb img {
-    padding: 25px 25px 5px 25px;
+ .middle-uber img {
+    padding: 35px 25px 10px 25px;
+ }
+
+ .middle-wells img {
+    padding: 35px 25px 10px 25px;
+    height: 140px;
+ }
+
+ .middle-intuit img, .middle-flipkart img, .middle-microsoft img {
+    padding: 35px 25px 10px 25px;
+    height: 130px;
  }
 
  .middle h1 {
@@ -84,13 +95,9 @@ body {
  }
 
  .middle p {
-    padding: 0px 20px;
+    padding: 0px 20px 10px 23px;
     letter-spacing: 1px;
     font-size: 1.1rem;
- }
-
- .middle-cisco p, .middle-amazon p, .middle-citi p, .middle-deloitte p, .middle-fb p {
-    padding: 0px 20px 10px 23px;
  }
 
 .container {
@@ -104,8 +111,12 @@ body {
     padding-top:255px;
 }
 
-.container .amazon-title h2, .container .deloitte-title h2 {
+.container .amazon-title h2, .container .deloitte-title h2, .container .microsoft-title h2, .container .uber-title h2, .container .wells-title h2 {
     padding-top: 130px;
+}
+
+.container .intuit-title h2 {
+    padding-top: 150px;
 }
 
 .container .fb-title h2 {
@@ -116,8 +127,16 @@ body {
     padding-top: 110px;   
 }
 
-.container .citi-title h2 {
+.container .citi-title h2  {
     padding-top: 180px;   
+}
+
+.container .google-title h2 {
+    padding-top: 200px; 
+}
+
+.container .flipkart-title h2 {
+    padding-top: 170px;
 }
 
 .student-details{
