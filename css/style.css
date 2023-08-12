@@ -8,7 +8,7 @@
   }
 
 body {
-    min-height: 150vh;
+    min-height: 100vh;
     background: #f8f8f8;
   }
 
@@ -64,7 +64,18 @@ body {
     height: auto;
     width: 160px;
     padding: 20px 20px 5px 20px;
+ }
 
+ .middle-amazon img {
+    width: 120px;  
+ }
+
+ .middle-cisco img {
+    width: 200px;
+ }
+
+ .middle-citi img, .middle-amazon img, .middle-cisco img, .middle-deloitte img {
+    padding: 25px 25px 5px 25px;
  }
 
  .middle h1 {
@@ -78,15 +89,31 @@ body {
     font-size: 1.1rem;
  }
 
+ .middle-cisco p, .middle-amazon p, .middle-citi p, .middle-deloitte p {
+    padding: 0px 20px 10px 23px;
+ }
+
 .container {
     position: relative;
-    margin-top: 470px;
+    margin-top: 350px;
     text-align: center;
 }
 
 .container .title h2 {
     letter-spacing: 1px;
+    padding-top:245px;
+}
+
+.container .amazon-title h2, .container .deloitte-title h2 {
     padding-top: 130px;
+}
+
+.container .cisco-title h2 {
+    padding-top: 110px;   
+}
+
+.container .citi-title h2 {
+    padding-top: 180px;   
 }
 
 .student-details{
@@ -193,18 +220,7 @@ footer {
     transform: scale(1.1);
 }
 
-/* .footer-content{
-    margin-top: 180px;
-    height: 100px;
-    display:flex;
-    flex-direction:row;
-    background-color:#42545C;
-    align-items: center;
-    justify-content: center;
-    color:aliceblue;
+.am-footer {
+    position: relative;
+    margin-bottom: 0;
 }
-.left-section{
-    padding-left: 110px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-} */

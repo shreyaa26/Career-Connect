@@ -261,6 +261,16 @@ body {
     top: 20px;
 }
 
+.amazon-company img {
+    top: 22px;
+}
+
+.cisco-company img {
+    height: 20px;
+    width: 50px;
+    top: 25px;
+}
+
 .company h3 {
     display: inline;
     position: absolute;
